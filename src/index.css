@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Sulphur Point', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(47, 61, 131);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,
+body {
+    overscroll-behavior-y: contain;
+}

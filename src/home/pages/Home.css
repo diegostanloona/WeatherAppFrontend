@@ -1,0 +1,99 @@
+.home__content{
+	z-index: 10;
+	padding-top: 30vh;
+	padding-bottom: 38vh;
+	color: #FFFFFF;
+	display: flex;
+	flex-flow: row;
+	overflow: hidden;
+}
+
+.home__left-section{
+	width: 24vw;
+	font-size: 4.44vw;
+	padding-left: 10.41vw;
+	line-height: 4.444vw;
+}
+
+.home__divider{
+	width: 50vw;
+}
+
+.home__right-section{
+	text-align: right;
+	width: 31vw;
+	font-size: 1.7vw;
+	padding-top: 50px;
+	padding-right: 5.55vw;
+	line-height: 2.3vw;
+}
+
+.home__right-section button{
+	margin-top: 30px;
+	font-size: 0.972vw;
+	border: 1px solid #FFFFFF;
+	background: none;
+	color: #FFFFFF;
+	border-radius: 50px;
+	padding: 13px 2.78vw 15px;
+	text-transform: uppercase;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.home__earth-background{
+	position: fixed;
+	background: url("../../pastel.jpg");
+	background-size: cover;
+	background-position: center;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 30vw;
+	height: 95vh;
+	top: 2.5vh;
+	z-index: -10;
+}
+
+.home__right-section button:hover{
+	background: #FFFFFF;
+	color: rgb(47, 61, 131);
+}
+
+@media screen and (max-width: 768px){
+	.home__content{
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 5vh;
+	}
+
+	.home__left-section{
+		font-size: 40px;
+		line-height: 40px;
+		width: auto;
+		padding: 20px;
+	}
+
+	.home__right-section{
+		font-size: 20px;
+		line-height: 20px;
+		width: auto;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.home__right-section button{
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.home__divider{
+		display: none;
+	}
+
+	.home__earth-background{
+		position: absolute;
+		top: 15vh;
+		width: 90vw;
+		height: 55vh;
+	}
+}
